@@ -24,7 +24,7 @@ window.onscroll = function() {
     }
   }
 
-  //screen size
+  /*screen size
   const screenWidth = window.innerWidth;
 console.log(`ScreenWidth: ${screenWidth}`);
 const screenRes=document.querySelector('.div2');
@@ -33,7 +33,7 @@ screenRes.classList.add("extra");
 }
 else if(screenWidth<1400){
   screenRes.classList.remove("extra");
-}
+}*/
 
 window.addEventListener('resize', function() {
   adjustLayout();
